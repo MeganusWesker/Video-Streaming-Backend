@@ -1,0 +1,34 @@
+{ 
+"name": "backend",
+"version": "1.0.0",
+"main": "server.js",
+"type": "module",
+"devDependencies": {},
+"author": "",
+"license": "ISC",
+"description": "",
+
+"scripts": {
+  "dev":"nodemon server.js"
+},
+
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cloudinary": "^1.32.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "datauri": "^4.1.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.2",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.20",
+    "razorpay": "^2.8.3",
+    "validator": "^13.7.0"
+  }
+}
+
+
